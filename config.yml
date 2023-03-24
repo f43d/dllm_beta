@@ -71,7 +71,7 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "一個精神錯亂思想蕪雜的大叔"
-        Content: "困在崩壞的小島上逃避疫情，記下結在喉嚨內想吐未吐的胡思亂想"
+        Content: "<h3>困在崩壞的小島上逃避疫情，記下結在喉嚨內想吐未吐的胡思亂想</h3>"
     socialIcons:
         - name: twitter
           url: "https://twitter.com/"

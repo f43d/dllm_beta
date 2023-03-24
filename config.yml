@@ -20,10 +20,11 @@ params:
     title: 十日痰 title
     description: "我的 new blog"
     keywords: [Blog, Portfolio, PaperModX]
+    EnableInstantClick: true
     author: Me
     # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
-    DateFormat: "January 2, 2006"
+    DateFormat: "Fri, 2 January 2006"
     defaultTheme: auto # dark, light
     disableThemeToggle: false
 
@@ -71,7 +72,7 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "十日痰"
-        Content: "一個精神錯亂思想蕪雜的大叔<br>困在崩壞的小島上逃避疫情<br>記下結在喉嚨內痕癢得想吐未吐的胡思亂想"
+        Content: "一個精神錯亂思想蕪雜的大叔，困在崩壞的小島上逃避疫情，記下結在喉嚨內痕癢得想吐未吐的胡思亂想"
     socialIcons:
         - name: twitter
           url: "https://twitter.com/"

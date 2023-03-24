@@ -1,5 +1,5 @@
 baseURL: "/"
-title: ExampleSite
+title: My blog
 paginate: 5
 theme: PaperModX
 

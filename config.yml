@@ -1,5 +1,5 @@
 baseURL: ""
-title: 十日痰
+title: 十日痰2
 paginate: 5
 theme: PaperModX
 
@@ -17,8 +17,8 @@ minify:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: ExampleSite
-    description: "ExampleSite description"
+    title: 十日痰 title
+    description: "我的 new blog"
     keywords: [Blog, Portfolio, PaperModX]
     author: Me
     # author: ["Me", "You"] # multiple authors
@@ -70,8 +70,8 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "一個精神錯亂思想蕪雜的大叔"
-        Content: "<h3>困在崩壞的小島上逃避疫情，記下結在喉嚨內想吐未吐的胡思亂想</h3>"
+        Title: "十日痰"
+        Content: "一個精神錯亂思想蕪雜的大叔，困在崩壞的小島上逃避疫情，記下結在喉嚨內痕癢得想吐未吐的胡思亂想"
     socialIcons:
         - name: twitter
           url: "https://twitter.com/"

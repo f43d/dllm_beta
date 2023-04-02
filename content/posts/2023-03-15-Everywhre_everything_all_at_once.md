@@ -3,6 +3,7 @@ title: Everywhre everything all at once
 date: 2023-03-15T03:13:44.555Z
 categories: 十日痰
 weight: 0
+tags: ["電影"]
 cover:
   hidden: false
   relative: false

@@ -3,7 +3,7 @@ title: 薅甲骨文4核24g羊毛
 date: 2022-06-20T03:13:44.555Z
 categories: Site部大開發
 weight: 0
-tags: ["Oracle" "VPS"]
+tags: ["Oracle"]
 cover:
   hidden: false
   relative: false
@@ -25,7 +25,7 @@ UseHugoToc: false
 
 有玩小雞的都知道甲骨文4核24G羊毛不好薅，基本上都是
 
-> Error : Out of capacity for shape VM.Standard.A1.Flex in availability domain
+Error : Out of capacity for shape VM.Standard.A1.Flex in availability domain
 
 今天不知行了什麼狗屎運，竟然給我了個 **4核24G內存**的 Arm 免費雲，重點**完全沒有**使用[旁門左道腳本](https://bestofphp.com/repo/hitrov-oci-arm-host-capacity)下成功開啓!
 其實去年 Black Friday 買的兩個VPS 也沒有怎樣使用，只是美帝羊毛當前大家都起哄先薅為快。

@@ -1,7 +1,7 @@
 ---
 title: 薅甲骨文4核24g羊毛
 date: 2022-06-20T03:13:44.555Z
-categories: Site部大開發
+categories: 西部大開發
 weight: 0
 tags: ["Oracle" "VPS"]
 cover:

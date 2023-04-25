@@ -25,4 +25,4 @@ UseHugoToc: false
 
 最近聽王玥波的 聊斋-陸判， 聽得我慼慼然，特別是最後一段：
 
-{{< imgh src="IMG_3234.jpeg" alt="my test photo"}}
+{{< imgh src="IMG_3234.jpeg" alt="my test photo" >}}

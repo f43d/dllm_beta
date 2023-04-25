@@ -11,6 +11,8 @@ ShowToc: true
 TocOpen: true
 ---
 
+{{< imgh src="IMG_3234.jpeg" alt="my test photo" >}}
+
 # Markdown 入门
 
 > 原文链接: [Markdown 入门指南 | Markdown 指南中文版](https://www.markdown.xyz/getting-started/)

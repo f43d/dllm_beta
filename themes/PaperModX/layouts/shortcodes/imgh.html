@@ -68,15 +68,9 @@
 	feel free to use only the second option and
 	avoid the conditional altogether.
 */}}
-{{- $imgBd5 := md5 $src -}}
-{{- if .Site.Params.Nonces -}}
-	<style>
-		.imgB-{{ $imgBd5 }} { {{ $CFPstyle | safeCSS }} }
-	</style>
-	<div class="relative imgB-{{ $imgBd5 }} bg-center">
-{{- else -}}
-	<div class="relative bg-center" style="{{ $CFPstyle | safeCSS }}">
-{{- end -}}
+
+<div class="relative bg-center" style="{{ $CFPstyle | safeCSS }}">
+
 {{/*
 	Now we'll build the `picture` which modern
 	browsers use to decide which image, and

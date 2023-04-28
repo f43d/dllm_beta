@@ -1,26 +1,25 @@
-{{- $url := urls.Parse .Destination -}}
-{{- if $url.Scheme -}}
-  {{/* third party image */}}
-  <img loading="lazy" src="{{ .Destination | safeURL }}" alt="{{ $.Text }}" {{ with $.Title}} title="{{ . }}" {{ end }} />
-{{- else -}}
-  {{/* internal image */}}
-  {{- $img := .Page.Resources.GetMatch .Destination -}}
-  {{- if not $img -}}
-    {{- $img = resources.Get .Destination -}}
-  {{- end -}}
+{{ $image := .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) }}
+{{ $small := $image.Resize "480x" }}
+{{ $medium := $image.Resize "768x" }}
+{{ $big := $image.Resize "1024x" }}
+{{ $alt := .PlainText | safeHTML }}
+{{ $caption := "" }}
+{{ with .Title }}
+  {{ $caption = . | safeHTML }}
+{{ end }}
 
-  {{- if $img -}}
-    {{- if eq $img.MediaType.MainType "video" -}}
-      <figure>
-      <video class="video-shortcode" preload="metadata" controls>
-        <source src="{{ $img.RelPermalink }}">
-        There should have been a video here but your browser does not seem to support it.
-      </video>
-      </figure>
-    {{- else -}}
-      <img loading="lazy" src="{{ $img.RelPermalink }}" type="" alt="{{ $.Text }}" {{ with $.Title}} title="{{ . }}" {{ end }} />
-    {{- end -}}
-  {{- else -}}
-    {{- warnf "No image found for %s from %s" .Destination .Page.File }}
-  {{- end -}}
-{{- end -}}
+<figure>
+  <a href="{{ $image.RelPermalink }}">
+    <img
+      sizes="100vw"
+      srcset="{{ $small.RelPermalink }} 480w, {{ $medium.RelPermalink }} 768w, {{ $big.RelPermalink }} 1024w"
+      src="{{ $image.RelPermalink }}"
+      width="{{ $image.Width }}"
+      height="{{ $image.Height }}"
+      alt="{{ if $alt }}{{ $alt }}{{ else if $caption }}{{ $caption | markdownify | plainify }}{{ else }}&nbsp;{{ end }}"
+      >
+  </a>
+  {{ with $caption }}
+    <figcaption>{{ . | markdownify }}</figcaption>
+  {{ end }}
+</figure>

@@ -48,8 +48,9 @@ window.onload = function () {
             }
         }
     };
-    xhr.open('GET', "../index.json");
-    xhr.send();
+//    xhr.open('GET', "../index.json");
+xhr.open("GET", "https://dllm.site/index.json");
+xhr.send();
 }
 
 function activeToggle(ae) {

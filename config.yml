@@ -18,7 +18,7 @@ params:
     # title: 十日痰
   description: "中年大叔的無病呻吟"
   # keywords: [Blog, Portfolio, PaperModX]
-  EnableInstantClick: true
+  # EnableInstantClick: true
   author: 高叔 # author: ["Me", "You"] # multiple 
   images:
     - cover.png
@@ -26,10 +26,10 @@ params:
   #logo:
   #  icon: images/logo.svg
   DateFormat: "2 January 2006"
-  useCustomAnalytics: true
-  mainSections:
-    - posts
-    - notes
+  # useCustomAnalytics: true
+  # mainSections:
+  #  - posts
+  #  - notes
   # theme params
   DisableLanguageSwitch: true
   TocOpen: true

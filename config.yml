@@ -20,7 +20,7 @@ params:
     description: "中年大叔的無病呻吟"
     keywords: [Blog, Portfolio, PaperModX]
     EnableInstantClick: true
-    author: 高叔 # author: ["Me", "You"] # multiple 
+    # author: 高叔 # author: ["Me", "You"] # multiple 
   images:
     - cover.png
   favicon: favicon.ico

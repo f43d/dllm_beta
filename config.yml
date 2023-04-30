@@ -1,14 +1,14 @@
-baseURL: "https://dllm.site"
 title: 十日痰
+baseURL: "https://dllm.site/"
 paginate: 5
 theme: PaperModX
 enableRobotsTXT: true
 enableEmoji: true
-pygmentsUseClasses: true
-googleAnalytics: UA-123-45
-minify:
-    disableXML: true
-    minifyOutput: true
+# pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
+# minify:
+#    disableXML: true
+#    minifyOutput: true
 outputs:
     home:
         - HTML
@@ -25,7 +25,7 @@ params:
   favicon: favicon.ico
   #logo:
   #  icon: images/logo.svg
-  DateFormat: " Monday, 2 January 2006"
+  DateFormat: "2 January 2006"
   useCustomAnalytics: true
   mainSections:
     - posts
@@ -113,9 +113,7 @@ params:
       困在崩壞的小島上逃避疫情
 
       記下結在喉嚨內痕癢得想吐未吐的胡思亂想
-
-
-#    socialIcons:
+	  #    socialIcons:
 #        - name: twitter
 #         url: "https://twitter.com/"
 #        - name: stackoverflow
@@ -161,10 +159,6 @@ menu:
           name: tags
           url: /tags/
           weight: 20
-        - identifier: example
-          name: example.org
-          url: https://example.org
-          weight: 30
 # Read: https://github.com/reorx/hugo-PaperModX/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:

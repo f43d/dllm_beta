@@ -47,12 +47,12 @@ params:
   Email: hello@example.com
   
   socialIcons:
-    - name: github-simple
-      url: "https://github.com/reorx"
+#    - name: github-simple
+#      url: "https://github.com/reorx"
     - name: twitter-simple
       url: "https://twitter.com/novoreorx"
-    - name: telegram-simple
-      url: "https://t.me/reorx_share"
+#    - name: telegram-simple
+#      url: "https://t.me/reorx_share"
     - name: rss-simple
       url: "feed.xml"
     - name: gmail
@@ -106,10 +106,8 @@ params:
 
 # home-info novoreorx
   homeInfoParams:
-    Title: "PaperModX"
+    Title: "一個精神錯亂思想蕪雜的大叔"
     Content: |
-      一個精神錯亂思想蕪雜的大叔
-
       困在崩壞的小島上逃避疫情
 
       記下結在喉嚨內痕癢得想吐未吐的胡思亂想

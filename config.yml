@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://dllm.site"
 title: dllm.site
 paginate: 5
 theme: PaperModX
@@ -15,10 +15,15 @@ minify:
     disableXML: true
     minifyOutput: true
 
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: 十日痰 title
-    description: "我的 new blog"
+    title: 十日痰 
+    description: "中年大叔的無病呻吟"
     keywords: [Blog, Portfolio, PaperModX]
     EnableInstantClick: true
     author: Me
@@ -26,7 +31,7 @@ params:
     images: ["<link or path of image for opengraph, twitter-cards>"]
     DateFormat: " Monday, 2 January 2006"
     defaultTheme: auto # dark, light
-    disableThemeToggle: false
+    disableThemeToggle: true
 
     ShowReadingTime: true
     ShowShareButtons: true
@@ -72,7 +77,9 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "十日痰"
-        Content: "一個精神錯亂思想蕪雜的大叔，困在崩壞的小島上逃避疫情，記下結在喉嚨內痕癢得想吐未吐的胡思亂想"
+        Content: 一個精神錯亂思想蕪雜的大叔  
+		困在崩壞的小島上逃避疫情  
+		記下結在喉嚨內痕癢得想吐未吐的胡思亂想"
     socialIcons:
         - name: twitter
           url: "https://twitter.com/"

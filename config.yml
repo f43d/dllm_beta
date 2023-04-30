@@ -32,7 +32,8 @@ params:
     DateFormat: " Monday, 2 January 2006"
     defaultTheme: auto # dark, light
     disableThemeToggle: true
-
+    mainSections:
+    - post
     ShowReadingTime: true
     ShowShareButtons: true
     ShowPostNavLinks: true

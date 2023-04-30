@@ -2,19 +2,15 @@ baseURL: "https://dllm.site"
 title: dllm.site
 paginate: 5
 theme: PaperModX
-
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
 pygmentsUseClasses: true
-
 googleAnalytics: UA-123-45
-
 minify:
     disableXML: true
     minifyOutput: true
-
 outputs:
     home:
         - HTML
@@ -32,8 +28,6 @@ params:
     DateFormat: " Monday, 2 January 2006"
     defaultTheme: auto # dark, light
     disableThemeToggle: true
-    mainSections:
-    - post
     ShowReadingTime: true
     ShowShareButtons: true
     ShowPostNavLinks: true

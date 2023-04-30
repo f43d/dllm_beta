@@ -1,5 +1,5 @@
 baseURL: "https://dllm.site"
-title: dllm.site
+title: 十日痰
 paginate: 5
 theme: PaperModX
 enableRobotsTXT: true
@@ -15,23 +15,21 @@ outputs:
         - RSS
         - JSON # is necessary
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: 十日痰 _
-    description: "中年大叔的無病呻吟"
-    keywords: [Blog, Portfolio, PaperModX]
-    EnableInstantClick: true
-    # author: 高叔 # author: ["Me", "You"] # multiple 
+    # title: 十日痰
+  description: "中年大叔的無病呻吟"
+  # keywords: [Blog, Portfolio, PaperModX]
+  EnableInstantClick: true
+  author: 高叔 # author: ["Me", "You"] # multiple 
   images:
     - cover.png
   favicon: favicon.ico
   #logo:
-  #  icon: images/logo.    
+  #  icon: images/logo.svg
   DateFormat: " Monday, 2 January 2006"
   useCustomAnalytics: true
   mainSections:
     - posts
     - notes
-
   # theme params
   DisableLanguageSwitch: true
   TocOpen: true
@@ -47,7 +45,7 @@ params:
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   Email: hello@example.com
-
+  
   socialIcons:
     - name: github-simple
       url: "https://github.com/reorx"

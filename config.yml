@@ -3,9 +3,7 @@ title: dllm.site
 paginate: 5
 theme: PaperModX
 enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
+enableEmoji: true
 pygmentsUseClasses: true
 googleAnalytics: UA-123-45
 minify:
@@ -18,18 +16,57 @@ outputs:
         - JSON # is necessary
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: 十日痰 
+    title: 十日痰 _
     description: "中年大叔的無病呻吟"
     keywords: [Blog, Portfolio, PaperModX]
     EnableInstantClick: true
-    author: Me
-    # author: ["Me", "You"] # multiple authors
-    images: ["<link or path of image for opengraph, twitter-cards>"]
-    DateFormat: " Monday, 2 January 2006"
-    defaultTheme: auto # dark, light
-    disableThemeToggle: true
-    ShowReadingTime: true
-    ShowShareButtons: true
+    author: Me # author: ["Me", "You"] # multiple 
+  images:
+    - cover.png
+  favicon: favicon.ico
+  #logo:
+  #  icon: images/logo.    
+  DateFormat: " Monday, 2 January 2006"
+  useCustomAnalytics: true
+  mainSections:
+    - posts
+    - notes
+
+  # theme params
+  DisableLanguageSwitch: true
+  TocOpen: true
+  TocSide: right
+  EnableInstantClick: false
+  EnableImageZoom: true
+  ShowShareButtons: true
+  ShareButtons:
+    - twitter
+    - telegram
+  ShowReadingTime: true
+  ShowWordCount: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  Email: hello@example.com
+
+  socialIcons:
+    - name: github-simple
+      url: "https://github.com/reorx"
+    - name: twitter-simple
+      url: "https://twitter.com/novoreorx"
+    - name: telegram-simple
+      url: "https://t.me/reorx_share"
+    - name: rss-simple
+      url: "feed.xml"
+    - name: gmail
+      url: email
+
+  socialAccounts:
+    twitter:
+      username: novoreorx
+#    defaultTheme: auto # dark, light
+#    disableThemeToggle: true
+#   ShowReadingTime: true
+#  ShowShareButtons: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: false
@@ -69,10 +106,16 @@ params:
             - name: Tags
               url: tags
 
-    # home-info mode
-    homeInfoParams:
-        Title: "十日痰"
-        Content: "一個精神錯亂思想蕪雜的大叔，困在崩壞的小島上逃避疫情，記下結在喉嚨內痕癢得想吐未吐的胡思亂想"
+# home-info novoreorx
+  homeInfoParams:
+    Title: "PaperModX"?
+    Content: |
+      一個精神錯亂思想蕪雜的大叔
+
+      困在崩壞的小島上逃避疫情
+
+      記下結在喉嚨內痕癢得想吐未吐的胡思亂想
+
 
 #    socialIcons:
 #        - name: twitter

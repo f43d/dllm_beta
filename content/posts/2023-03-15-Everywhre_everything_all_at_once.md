@@ -1,9 +1,11 @@
 ---
 title: Everywhre everything all at once
-date: 2023-03-15T03:13:44.555Z
+date: 2023-03-15
+description: "也總有些什麼，值得你去愛"
 categories: 十日痰
 weight: 0
-tags: ["電影"]
+tags: 
+  - 電影
 cover:
   hidden: false
   relative: false
@@ -25,15 +27,10 @@ UseHugoToc: false
 
 > 哪怕是在一個蠢到家的宇宙里，所有人的手指都跟熱狗腸一樣，也總有些什麼，值得你去愛，你還是想找到我，我就想待在你身邊。」——《瞬息全宇宙》
 
-![IMG_3039](https://co.valent.bond/dllm/IMG_3039.JPG)
-![IMG_3039](https://co.valent.bond/dllm/IMG_3040.JPG)
-![IMG_3039](https://co.valent.bond/dllm/IMG_3041.JPG)
-![IMG_3039](https://co.valent.bond/dllm/IMG_3042.JPG)
-![IMG_3039](https://co.valent.bond/dllm/IMG_3043.JPG)
-![IMG_3039](https://co.valent.bond/dllm/IMG_3044.JPG)
-![IMG_3039](https://co.valent.bond/dllm/IMG_3045.JPG)
-![IMG_3039](https://co.valent.bond/dllm/IMG_3046.JPG)
-
-
-
-
+{{< figure src="https://co.valent.bond/dllm/everywhere_00.jpg" >}}
+{{< figure src="https://co.valent.bond/dllm/everywhere_02.jpg" >}}
+{{< figure src="https://co.valent.bond/dllm/everywhere_03.jpg" >}}
+{{< figure src="https://co.valent.bond/dllm/everywhere_04.jpg" >}}
+{{< figure src="https://co.valent.bond/dllm/everywhere_05.jpg" >}}
+{{< figure src="https://co.valent.bond/dllm/everywhere_06.jpg" >}}
+{{< figure src="https://co.valent.bond/dllm/everywhere_07.jpg" >}}

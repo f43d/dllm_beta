@@ -1,3 +1,4 @@
+---
 title: French Dispatch
 date: "2022-04-12"
 description: "Seeking something missing. Missing something left behind"
@@ -22,6 +23,7 @@ tags:
   ShowWordCount: false
   ShowRssButtonInSectionTermList: false
   UseHugoToc: false
+---
 
 {{< figure src="https://co.valent.bond/dllm/french_dispatch_1.gif" >}}  
 {{< figure src="https://co.valent.bond/dllm/french_dispatch_2.gif" >}}  

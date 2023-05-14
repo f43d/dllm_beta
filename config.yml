@@ -127,7 +127,7 @@ params:
 #           SiteVerificationTag: "XYZabc"
 
 #    cover:
-#        hidden: true # hide everywhere but not in structured data
+#        hidden: t # hide everywhere but not in structured data
 #        hiddenInList: true # hide on list pages and home
 #        hiddenInSingle: true # hide on single page
 
@@ -156,6 +156,10 @@ menu:
           name: tags
           url: /tags/
           weight: 20
+        - identifier: Archives
+          name: Archives
+          url: /archives/
+          weight: 40
 # Read: https://github.com/reorx/hugo-PaperModX/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:

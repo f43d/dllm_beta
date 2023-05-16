@@ -10,9 +10,9 @@ buildFuture: false
 buildExpired: false
 # pygmentsUseClasses: true
 # googleAnalytics: UA-123-45
- minify:
+minify:
     disableXML: true
-    minifyOutput: true
+#    minifyOutput: true
 permalinks:
   post: "/:title/"
   # post: "/:year/:month/:day/:title/"

@@ -95,8 +95,7 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
-
-    assets:
+  assets:
         # disableFingerprinting: true
         favicon: "<link / abs url>"
         favicon16x16: "<link / abs url>"

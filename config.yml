@@ -22,11 +22,8 @@ outputs:
       - JSON # is necessary
 
 
-
-
-
 params:
-    # title: 十日痰
+  title: 十日痰
   description: "中年大叔的無病呻吟"
   # keywords: [Blog, Portfolio, PaperModX]
   EnableInstantClick: true

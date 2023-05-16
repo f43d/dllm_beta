@@ -15,11 +15,11 @@ minify:
 #    minifyOutput: true
 
 
-  outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
+outputs:
+  home:
+      - HTML
+      - RSS
+      - JSON # is necessary
 
 
 

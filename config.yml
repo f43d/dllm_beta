@@ -69,25 +69,25 @@ params:
   ShowPostNavLinks: true
   Email: hello@example.com
   
-  socialIcons:
+#  socialIcons:
 #    - name: github-simple
 #      url: "https://github.com/reorx"
-    - name: twitter-simple
-      url: "https://twitter.com/novoreorx"
+#    - name: twitter-simple
+#      url: "https://twitter.com/novoreorx"
 #    - name: telegram-simple
 #      url: "https://t.me/reorx_share"
-    - name: rss-simple
-      url: "feed.xml"
-    - name: gmail
-      url: email
+#    - name: rss-simple
+#      url: "feed.xml"
+#    - name: gmail
+#      url: email
 
-  socialAccounts:
-    twitter:
-      username: novoreorx
-#   defaultTheme: auto # dark, light
-#   disableThemeToggle: true
-#   ShowReadingTime: true
-#   ShowShareButtons: true
+#  socialAccounts:
+#    twitter:
+#      username: novoreorx
+   defaultTheme: auto # dark, light
+   disableThemeToggle: true
+   ShowReadingTime: true
+   ShowShareButtons: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: false
@@ -187,8 +187,6 @@ menu:
           name: Search
           url: /search/
           weight: 50
-  
-
 
 
 taxonomies:

@@ -19,7 +19,7 @@ outputs:
   home:
       - HTML
       - RSS
-      - JSON # is necessary
+      - JSON # is necessary to enable search function
 
 
 params:
@@ -34,7 +34,7 @@ params:
   #  icon: images/logo.svg
   DateFormat: "2 January 2006"
   defaultTheme: auto  # defaultTheme: light or  dark 
-  disableThemeToggle: true
+  disableThemeToggle: false
   ShowShareButtons: true
   ShowReadingTime: true
   # disableSpecialistPost: true
@@ -42,6 +42,14 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
+#  disableSpecial1stPost: false
+#  disableScrollToTop: false
+#  comments: false
+#  hidemeta: false
+#  hideSummary: false
+#  showtoc: false
+#  tocopen: false
+  
   hideFooter: false # 隐藏页脚
   ShowWordCounts: true
   VisitCount: true
@@ -81,20 +89,20 @@ params:
   socialAccounts:
     twitter:
       username: novoreorx
-  defaultTheme: auto # dark, light
-  disableThemeToggle: true
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: false
-  tocopen: false
+#  defaultTheme: auto # dark, light
+#  disableThemeToggle: true
+#  ShowReadingTime: true
+#  ShowShareButtons: true
+#  ShowPostNavLinks: true
+#  ShowBreadCrumbs: true
+#  ShowCodeCopyButtons: false
+#  disableSpecial1stPost: false
+#  disableScrollToTop: false
+#  comments: false
+#  hidemeta: false
+#  hideSummary: false
+#  showtoc: false
+#  tocopen: false
   # assets:
         # disableFingerprinting: true
         # favicon: "<link / abs url>"

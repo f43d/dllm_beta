@@ -31,5 +31,4 @@ UseHugoToc: false
 {{< figure src="https://co.valent.bond/dllm/french_dispatch_4.gif" >}}  
 {{< figure src="https://co.valent.bond/dllm/french_dispatch_5.gif" >}}  
 {{< figure src="https://co.valent.bond/dllm/french_dispatch_6.gif" >}}  
-{{< figure src="https://co.valent.bond/dllm/french_dispatch_7.gif" >}}  
-
+x

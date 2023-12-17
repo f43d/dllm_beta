@@ -32,7 +32,7 @@ UseHugoToc: false
 
 由於 n8n 的[官方 docker compose](https://docs.n8n.io/hosting/installation/server-setups/docker-compose/) 是使用 [Traefik](https://traefik.io/traefik/)。大家看，非常複雜哩。
 
-'
+```
 version: "3.7"
 
 services:
@@ -93,8 +93,8 @@ volumes:
     external: true
   n8n_data:
     external: true
-'
 
+```
 
 而小白的我只會最簡單的 Nginx Proxy manager，所以只好利用 Portainer 部署 n8n。
 

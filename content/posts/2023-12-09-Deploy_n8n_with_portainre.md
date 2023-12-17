@@ -96,13 +96,15 @@ volumes:
 
 ```
 
+## 建立 volume
+
 而小白的我只會最簡單的 Nginx Proxy manager，所以只好利用 Portainer 部署 n8n。
 
 打開Portrainer，首先在 volume 中建立一個名叫 n8n-data 的 volume
 
 {{< figure src="https://co.valent.bond/dllm/n8n-04.png" >}}
 
-加入新 container
+## 加入 container
 
 `Name` - n8n  
 `Image` - n8nio/n8n:latest  
@@ -110,7 +112,8 @@ volumes:
 `Manual network port publishing` - Host: 5678 / Container: 5678
 
 {{< figure src="https://co.valent.bond/dllm/n8n-05.png" >}}
-然後在下面 `Advanced container settings` 中 start with Volumes 選項 click 
+
+然後在下面 `Advanced container settings` 中 start with volumes 選項  
 
 `Map additional volume`.
 
@@ -119,7 +122,7 @@ volumes:
 
 {{< figure src="https://co.valent.bond/dllm/n8n-06.png" >}}
  
-再設定一些環境參數
+## 設定環境參數
 
 在 `Env` 選擇 `Advanced Mode` 貼上以下參數。
 
@@ -135,20 +138,24 @@ EXECUTIONS_DATA_MAX_AGE=24
 DB_SQLITE_VACUUM_ON_STARTUP=true
 ```
 
+## Deploy container 
+
 最後，在 `Restart Policy` 中選擇 `Always` 
 我們便可以 `Deploy the container`。
 
 如無意外，可以便可以在 http://my-ip-address:5678 訪問n8n。
 
-如果你和我一樣是使用 Oracle VM 的話，當然要在當然要加一條 Ingress rule 打開 port 5678。
+如果你和我一樣是使用 Oracle VM 的話，當然要在當然要加一條 `Ingress rule` 打開 `port 5678`。
+
+{{< figure src="https://co.valent.bond/dllm/n8n-08.png" >}}
 
 更安全的做法當然當然是用 Nginx Proxy Manage 做反向代理。
 
-在 DNS 中加入一條 A record 'n8n' (或CNAME record)， 指向 my-ipaddress。
+在 DNS 中加入一條 `A Record` 'n8n' (或`CNAME Record`)， 指向 my-ipaddress。
 
 {{< figure src="https://co.valent.bond/dllm/n8n-01.png" >}}
 
-在 Nginx Proxy Manager 中 加入 n8n.my-doamin.com， 轉發到 port 5678
+在 Nginx Proxy Manager 中 加入 `n8n.my-doamin.com`， 轉發到 `port 5678`
 
 {{< figure src="https://co.valent.bond/dllm/n8n-03.png" >}}
 
